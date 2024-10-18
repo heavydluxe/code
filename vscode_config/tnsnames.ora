@@ -1,0 +1,1520 @@
+# BEGIN AUTO-GENERATED SERVICES - DO NOT MANUALLY EDIT THIS SECTION
+
+ADV_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=adv_dev.dartmouth.edu)
+    )
+  )
+
+ADV_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=adv_preprod.dartmouth.edu)
+    )
+  )
+
+ADV_TRAIN =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=adv_train.dartmouth.edu)
+    )
+  )
+
+ADV_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=adv_upgrade.dartmouth.edu)
+    )
+  )
+
+ADVANCE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=advance.dartmouth.edu)
+    )
+  )
+
+ALUMINUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=aluminum.dartmouth.edu)
+    )
+  )
+
+BACKUP_ALUMINUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_aluminum.dartmouth.edu)
+    )
+  )
+
+BACKUP_BARIUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_barium.dartmouth.edu)
+    )
+  )
+
+BACKUP_BRASS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=ebs-db-crp1.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_brass.dartmouth.edu)
+    )
+  )
+
+BACKUP_COPPER =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_copper.dartmouth.edu)
+    )
+  )
+
+BACKUP_ETLDEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_etldev.dartmouth.edu)
+    )
+  )
+
+BACKUP_ETLPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_etlprd.dartmouth.edu)
+    )
+  )
+
+BACKUP_ETLTST =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_etltst.dartmouth.edu)
+    )
+  )
+
+BACKUP_IRON =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_iron.dartmouth.edu)
+    )
+  )
+
+BACKUP_LEAD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_lead.dartmouth.edu)
+    )
+  )
+
+BACKUP_MERCURY =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rmancat-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_mercury.dartmouth.edu)
+    )
+  )
+
+BACKUP_RADIUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_radium.dartmouth.edu)
+    )
+  )
+
+BACKUP_RPTPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rpt-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_rptprd.dartmouth.edu)
+    )
+  )
+
+BACKUP_RPTTST =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rpt-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_rpttst.dartmouth.edu)
+    )
+  )
+
+BACKUP_ZINC =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=backup_zinc.dartmouth.edu)
+    )
+  )
+
+BANNER =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banner.dartmouth.edu)
+    )
+  )
+
+BANNER_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banner_dev.dartmouth.edu)
+    )
+  )
+
+BANNER_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banner_preprod.dartmouth.edu)
+    )
+  )
+
+BANNER_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banner_upgrade.dartmouth.edu)
+    )
+  )
+
+BANWEB =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banweb.dartmouth.edu)
+    )
+  )
+
+BANWEB_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banweb_dev.dartmouth.edu)
+    )
+  )
+
+BANWEB_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banweb_preprod.dartmouth.edu)
+    )
+  )
+
+BANWEB_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=banweb_upgrade.dartmouth.edu)
+    )
+  )
+
+BARIUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=barium.dartmouth.edu)
+    )
+  )
+
+BRASS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=ebs-db-crp1.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=brass.dartmouth.edu)
+    )
+  )
+
+COPPER =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=copper.dartmouth.edu)
+    )
+  )
+
+COPPER_CONSPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=copper.dartmouth.edu)
+    )
+  )
+
+CSGOLD_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=csgold-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=csgold_dev.dartmouth.edu)
+    )
+  )
+
+CSGOLD_PRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=csgold-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=csgold_prd.dartmouth.edu)
+    )
+  )
+
+DANTE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dante.dartmouth.edu)
+    )
+  )
+
+DANTE_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dante_dev.dartmouth.edu)
+    )
+  )
+
+DANTE_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dante_preprod.dartmouth.edu)
+    )
+  )
+
+DARTCAT =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rmancat-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dartcat.dartmouth.edu)
+    )
+  )
+
+DEV1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dev1.dartmouth.edu)
+    )
+  )
+
+DEV2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=dev2.dartmouth.edu)
+    )
+  )
+
+ENDOW_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=endow_dev.dartmouth.edu)
+    )
+  )
+
+ENDOW_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=endow_preprod.dartmouth.edu)
+    )
+  )
+
+ENDOW_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=endow_upgrade.dartmouth.edu)
+    )
+  )
+
+ENDOWMENT =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=endowment.dartmouth.edu)
+    )
+  )
+
+ETLDEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etldev.dartmouth.edu)
+    )
+  )
+
+ETLDEV_CHILI =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etldev_chili.dartmouth.edu)
+    )
+  )
+
+ETLPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etlprd.dartmouth.edu)
+    )
+  )
+
+ETLPRD_CHILI =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etlprd_chili.dartmouth.edu)
+    )
+  )
+
+ETLPRD_SALSA =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etlprd_salsa.dartmouth.edu)
+    )
+  )
+
+ETLTST =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etltst.dartmouth.edu)
+    )
+  )
+
+ETLTST_CHILI =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=etl-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=etltst_chili.dartmouth.edu)
+    )
+  )
+
+FAMIS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=famis-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=famis.dartmouth.edu)
+    )
+  )
+
+FAMIS_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=famis-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=famis_preprod.dartmouth.edu)
+    )
+  )
+
+FAMISPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=famis-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=famisprd.dartmouth.edu)
+    )
+  )
+
+FAMISPRE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=famis-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=famispre.dartmouth.edu)
+    )
+  )
+
+FINAID =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=finaid.dartmouth.edu)
+    )
+  )
+
+FINAID_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=finaid_dev.dartmouth.edu)
+    )
+  )
+
+FINAID_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=finaid_preprod.dartmouth.edu)
+    )
+  )
+
+FINAID_PROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=finaid_prod.dartmouth.edu)
+    )
+  )
+
+FINAID_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=finaid_upgrade.dartmouth.edu)
+    )
+  )
+
+HS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cmpt-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=hs.dartmouth.edu)
+    )
+  )
+
+HS_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cmpt-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=hs_dev.dartmouth.edu)
+    )
+  )
+
+IDM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=idm.dartmouth.edu)
+    )
+  )
+
+IDM_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=idm_dev.dartmouth.edu)
+    )
+  )
+
+IDM_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=idm_preprod.dartmouth.edu)
+    )
+  )
+
+IDM_PROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=idm_prod.dartmouth.edu)
+    )
+  )
+
+IRON =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=iron.dartmouth.edu)
+    )
+  )
+
+IRON_CONSPRE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=iron.dartmouth.edu)
+    )
+  )
+
+KRONOS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=kronos.dartmouth.edu)
+    )
+  )
+
+KRONOS_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=kronos_dev.dartmouth.edu)
+    )
+  )
+
+KRONOS_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=kronos_preprod.dartmouth.edu)
+    )
+  )
+
+KRONOS_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=kronos_upgrade.dartmouth.edu)
+    )
+  )
+
+LEAD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lead.dartmouth.edu)
+    )
+  )
+
+LEAD_CONSUPG =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lead.dartmouth.edu)
+    )
+  )
+
+LENEL =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lenel.dartmouth.edu)
+    )
+  )
+
+LENEL_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lenel_dev.dartmouth.edu)
+    )
+  )
+
+LENEL_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lenel_preprod.dartmouth.edu)
+    )
+  )
+
+LENEL_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lenel_upgrade.dartmouth.edu)
+    )
+  )
+
+LIB_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lib_dev.dartmouth.edu)
+    )
+  )
+
+LIB_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lib_preprod.dartmouth.edu)
+    )
+  )
+
+LIB_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=lib_upgrade.dartmouth.edu)
+    )
+  )
+
+LIBRARY =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=library.dartmouth.edu)
+    )
+  )
+
+MERCURY =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rmancat-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=mercury.dartmouth.edu)
+    )
+  )
+
+OCP =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=ocp.dartmouth.edu)
+    )
+  )
+
+OCP_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=ocp_dev.dartmouth.edu)
+    )
+  )
+
+OCP_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=ocp_preprod.dartmouth.edu)
+    )
+  )
+
+OCP_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=ocp_upgrade.dartmouth.edu)
+    )
+  )
+
+PLANON =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=planon.dartmouth.edu)
+    )
+  )
+
+PLANON_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=planon_dev.dartmouth.edu)
+    )
+  )
+
+PLANON_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=planon_preprod.dartmouth.edu)
+    )
+  )
+
+PREPROD1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=preprod1.dartmouth.edu)
+    )
+  )
+
+PREPROD2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=preprod2.dartmouth.edu)
+    )
+  )
+
+PROD1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=prod1.dartmouth.edu)
+    )
+  )
+
+PROD2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=prod2.dartmouth.edu)
+    )
+  )
+
+PROD3 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=prod3.dartmouth.edu)
+    )
+  )
+
+PROD4 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=prod4.dartmouth.edu)
+    )
+  )
+
+RADIUM =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=idm-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=radium.dartmouth.edu)
+    )
+  )
+
+REPORTS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=reports.dartmouth.edu)
+    )
+  )
+
+REPORTS_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=reports_dev.dartmouth.edu)
+    )
+  )
+
+REPORTS_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=reports_preprod.dartmouth.edu)
+    )
+  )
+
+REPORTS_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=reports_upgrade.dartmouth.edu)
+    )
+  )
+
+RPTPRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rpt-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=rptprd.dartmouth.edu)
+    )
+  )
+
+RPTPRD_SALSA =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=rpt-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=rptprd_salsa.dartmouth.edu)
+    )
+  )
+
+SRVCWRKS =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=srvcwrks.dartmouth.edu)
+    )
+  )
+
+SRVCWRKS_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=srvcwrks_dev.dartmouth.edu)
+    )
+  )
+
+SRVCWRKS_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=srvcwrks_preprod.dartmouth.edu)
+    )
+  )
+
+SRVCWRKS_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=srvcwrks_upgrade.dartmouth.edu)
+    )
+  )
+
+T2FLEX =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=t2flex.dartmouth.edu)
+    )
+  )
+
+T2FLEX_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=t2flex_dev.dartmouth.edu)
+    )
+  )
+
+T2FLEX_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=t2flex_preprod.dartmouth.edu)
+    )
+  )
+
+T2FLEX_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=t2flex_upgrade.dartmouth.edu)
+    )
+  )
+
+TUCK =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-prd.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=tuck.dartmouth.edu)
+    )
+  )
+
+TUCK_DEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=tuck_dev.dartmouth.edu)
+    )
+  )
+
+TUCK_PREPROD =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-pre.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=tuck_preprod.dartmouth.edu)
+    )
+  )
+
+TUCK_UPGRADE =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=tuck_upgrade.dartmouth.edu)
+    )
+  )
+
+UPGRADE1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=upgrade1.dartmouth.edu)
+    )
+  )
+
+UPGRADE2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-upg.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=upgrade2.dartmouth.edu)
+    )
+  )
+
+ZINC =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=zinc.dartmouth.edu)
+    )
+  )
+
+ZINC_CONSDEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=cons-db-dev.dartmouth.edu)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=60)(DELAY=5))
+      (SERVICE_NAME=zinc.dartmouth.edu)
+    )
+  )
+
+CEBSSND =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-snd.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = cebssnd)
+      (INSTANCE_NAME = cebssnd)
+    )
+  )
+
+EBSSND =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-snd.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebssand)
+      (INSTANCE_NAME = cebssnd)
+    )
+  )
+
+CEBSDEV =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-dev.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = cebsdev)
+      (INSTANCE_NAME = cebsdev)
+    )
+  )
+
+EBSDEV =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-dev.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebsdev)
+      (INSTANCE_NAME = cebsdev)
+    )
+  )
+
+CEBSTST =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-pre.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = cebstst)
+      (INSTANCE_NAME = cebstst)
+    )
+  )
+
+EBSTST =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-pre.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebstest)
+      (INSTANCE_NAME = cebstst)
+    )
+  )
+
+EBSTEST =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-pre.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebstest)
+      (INSTANCE_NAME = cebstst)
+    )
+  )
+
+CEBSPRD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-prd.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = cebsprd)
+      (INSTANCE_NAME = cebsprd)
+    )
+ )
+
+EBSPRD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-prd.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebsprod)
+      (INSTANCE_NAME = cebsprd)
+    )
+ )
+
+EBSPROD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL=tcp)(HOST=ebs-db-prd.dartmouth.edu)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVICE_NAME = ebsprod)
+      (INSTANCE_NAME = cebsprd)
+    )
+ )
+# END AUTO-GENERATED SERVICES - DO NOT MANUALLY EDIT THIS SECTION
