@@ -39,8 +39,7 @@ echo "Copying your config files to their primary locations..."
 cp ~/sbemode/code/config_files/backup.emacs.lsp ~/.emacs
 cp ~/sbemode/code/config_files/backup.zshrc ~/.zshrc
 cp ~/sbemode/code/config_files/backup.mytheme.omp.json ~/.mytheme.omp.json
-cp ~/sbemode/code/config_files/backup.com.apple.Terminal.plist
-~/Library/Preferences/com.apple.Terminal.plist
+cp ~/sbemode/code/config_files/backup.com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
 echo "Base environment installed.  You can get to work in a different terminal."
 echo "Moving on to graphical apps."
 sleep 2
@@ -64,21 +63,21 @@ echo "Installing M$ Remote Desktop"
 brew install --cask microsoft-remote-desktop
 echo "Installing Splashtop Business"
 brew install --cask splashtop-business
-echo "Installing Skype"
-brew install --cask skype
-echo "Installing Rectangle Windows Manager"
-brew install --cask rectangle
+#echo "Installing Skype"
+#brew install --cask skype
+#echo "Installing Rectangle Windows Manager"
+#brew install --cask rectangle
 sleep 3
 
 ## Setup dock and open GUI apps for configuration
 echo "Setting up the Dock"
 dockutil --add /Applications/Google\ Chrome.app
-dockutil --add /Applications/Firefox.app
 dockutil --add /System/Applications/Utilities/Terminal.app
+dockutil --add /Applications/Firefox.app
+dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /System/Applications/System\ Settings.app
 dockutil --add /System/Applications/TextEdit.app
 dockutil --add /Applications/1Password.app
-dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /Applications/Microsoft\ Remote\ Desktop.app
 dockutil --add /Applications/Splashtop\ Business.app
 dockutil --add '~/Downloads' --view fan --display folder
