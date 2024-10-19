@@ -5,8 +5,8 @@
 
 ;; BIG SECTION OF ORGMODE STUFF
 ;; Org file path settings
-(setq org-archive-location "~/sbemode/org/zzzorg-archive.log::")
-(setq org-agenda-files (directory-files-recursively "~/sbemode/org/" "\\.org$"))
+(setq org-archive-location "~/sbemode/orgmode/zzzorg-archive.log::")
+(setq org-agenda-files (directory-files-recursively "~/sbemode/orgmode/" "\\.org$"))
 (setq backup-directory-alist '(("." . "~/zzzemacs-backups")))
 
 ;; Org-mode keyword settings
@@ -46,15 +46,9 @@
 
 ;; deft notes information
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-agenda-files
-   '("/Users/dluxe/sbemode/org/defts/2024Oct03.org" "/Users/dluxe/sbemode/org/defts/2024Oct06.org" "/Users/dluxe/sbemode/org/defts/2024Oct07.org" "/Users/dluxe/sbemode/org/defts/2024Oct10.org" "/Users/dluxe/sbemode/org/defts/2024Oct11.org" "/Users/dluxe/sbemode/org/defts/2024Oct15.org" "/Users/dluxe/sbemode/org/home-do.org" "/Users/dluxe/sbemode/org/portlandtoday.org" "/Users/dluxe/sbemode/org/work-do.org" "/Users/dluxe/sbemode/org/work-interview-questions.org" "/Users/dluxe/sbemode/org/work-servers.org"))
  '(package-selected-packages '(deft)))
 (setq deft-extensions '("txt" "org" "md"))
-(setq deft-directory "~/sbemode/org/defts")
+(setq deft-directory "~/sbemode/orgmode/defts")
 (setq deft-default-extension "org")
 (setq deft-new-file-format "%Y%b%d")
 
