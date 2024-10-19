@@ -5,7 +5,7 @@ echo "Input sudo password for this script to do root things."
 sudo -v
 while true; do sudo -n true; sleep 15; kill -0 "$$" || exit; done 2>/dev/null &
 
-# Configure initial git global variables
+# Configure initial git global variables and get repos
 echo "Configuring git..."
 git config --global user.name "Brian Dellinger"
 git config --global user.email "bdellinger@gmail.com"
@@ -25,6 +25,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Install  OhMyPosh
 brew install oh-my-posh
+
 ## Make cache directory for omp cache files
 mkdir ~/.cache
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
@@ -36,7 +37,7 @@ cp ~/sbemode/code/config_files/backup.emacs.lsp ~/.emacs
 cp ~/sbemode/code/config_files/backup.zshrc ~/.zshrc
 cp ~/sbemode/code/config_files/backup.mytheme.omp.json ~/.mytheme.omp.json
 cp ~/sbemode/code/config_files/backup.com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
-echo "Base environment installed.  You can get to work in a different terminal."
+echo "Base environment installed."
 echo "Moving on to graphical apps."
 sleep 2
 
@@ -55,8 +56,8 @@ echo "Installing 1Password"
 brew install --cask 1password
 echo "Installing VSCode"
 brew install --cask visual-studio-code
-echo "Installing M$ Remote Desktop"
-brew install --cask microsoft-remote-desktop
+echo "Installing M$ Windows App (aka RDS)"
+brew install --cask windows-app
 echo "Installing Splashtop Business"
 brew install --cask splashtop-business
 #echo "Installing Skype"
@@ -74,7 +75,7 @@ dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /System/Applications/System\ Settings.app
 dockutil --add /System/Applications/TextEdit.app
 dockutil --add /Applications/1Password.app
-dockutil --add /Applications/Microsoft\ Remote\ Desktop.app
+dockutil --add /Applications/Windows\ App.app
 dockutil --add /Applications/Splashtop\ Business.app
 dockutil --add '~/Downloads' --view fan --display folder
 
@@ -87,35 +88,50 @@ open -n /Applications/Visual\ Studio\ Code.app
 open -n /Applications/Splashtop\ Business.app
 
 ## Install more brew cli stuff
-echo "Installing more brew CLI tools"
+echo "Brewing core and filesystem utils (coreutils, tree, h&btop)"
 brew install coreutils
-brew install python
 brew install tree
-echo "Installing CLI network tools..."
-brew install speedtest-cli
 brew install htop
+brew install btop
+
+## Install python
+echo "Brewing latest python release"
+brew install python
+
+# Homebrew network tools
+echo "Brewing network tools (wget, curl, speedtest, nmap, tcpdump, termshark)"
 brew install wget
 brew install curl
+brew install speedtest-cli
 brew install nmap
 brew install tcpdump
-brew install cmatrix
 brew install termshark
+
+# Fun brew apps
+echo "Brewing fun tools (cmatrix, figlet)"
+brew install cmatrix
 brew install figlet
-echo "Installing docker CLI"
+
+# Colima and Docker
+echo "Brewing colima/docker CLIs"
 brew install colima
+sleep 1
 brew services start colima
 brew install docker
-echo "Installing AI Tools - Ollama"
+
+# Ollama
+echo "Brewing Ollama for LLMs"
 brew install ollama
-sleep 2
+sleep 1
 brew services start ollama
 sleep 10
 ollama pull llama3.2:latest
 ollama pull llama3.1:latest
+
+# Fabric
 echo "Installing AI Tool - Fabric"
-brew install go
-sleep 5
-go install github.com/danielmiessler/fabric@latest
+curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version
+sleep 1
 fabric --setup
 
 # Set hostname and ComputerName
@@ -130,3 +146,11 @@ echo "Hostname has been changed to '$NEW_HOSTNAME'"
 echo "This is the setup file for '$NEW_HOSTNAME'" > ~/Desktop/InstallOutput.txt
 brew list >> ~/Desktop/InstallOutput.txt
 git config --list >> ~/Desktop/InstallOutput.txt
+
+echo "     _                  _ "
+echo "  __| | ___  _ __   ___| |"
+echo " / _' |/ _ \| '_ \ / _ \ | "
+echo "| (_| | (_) | | | |  __/_|"
+echo " \__,_|\___/|_| |_|\___(_)"
+echo ""
+echo "Script done.  Don't forget to clone other key repos to ~/sbemode!!"
