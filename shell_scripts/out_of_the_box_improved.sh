@@ -60,6 +60,8 @@ echo "Installing M$ Windows App (aka RDS)"
 brew install --cask windows-app
 echo "Installing Splashtop Business"
 brew install --cask splashtop-business
+echo "Installing VirtualBox"
+brew install --cask virtualbox@beta
 #echo "Installing Skype"
 #brew install --cask skype
 #echo "Installing Rectangle Windows Manager"
@@ -73,10 +75,12 @@ dockutil --add /System/Applications/Utilities/Terminal.app
 dockutil --add /Applications/Firefox.app
 dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /System/Applications/System\ Settings.app
-dockutil --add /System/Applications/TextEdit.app
 dockutil --add /Applications/1Password.app
+dockutil --add /Applications/VirtualBox.app
 dockutil --add /Applications/Windows\ App.app
 dockutil --add /Applications/Splashtop\ Business.app
+dockutil --add /Applications/zoom.us.app
+dockutil --add /System/Applications/TextEdit.app
 dockutil --add '~/Downloads' --view fan --display folder
 
 ## Start graphical apps and allow configuration
