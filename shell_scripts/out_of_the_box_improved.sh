@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# Update/Upgrade Homebrew (just in case)
-  echo "Updating and Upgrading Homebrew on principle..."
-  brew update && brew upgrade
-
 ## Input sudo password up front and keep it alive until script ends
 echo "Input sudo password for this script to do root things."
 sudo -v
