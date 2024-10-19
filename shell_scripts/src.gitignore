@@ -9,6 +9,10 @@ ehthumbs.db
 Thumbs.db
 *.log
 
+#git_me_one_time.sh script#
+# not the src. version!! #
+git_me_one_time.sh
+
 # Emacs Temp #
 #############
 *~

@@ -1,5 +1,5 @@
 #!/bin/sh
-# This file backs up key system files and then commits them to git.
+# This script commits changed files in pwd to git & github.
 
 # Get the current date and time in the desired format
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
@@ -25,15 +25,16 @@ git add -A
 sleep 1
 echo "Commiting files to local repo.  Enter commmit message now."
 read -p ">> " commit_message
+echo ""
 git commit -m "$commit_message"
 sleep 1
 
 # Push last changes to github
 echo ""
 echo "Pushing changes to github repo in verbose mode..."
+echo "" 
 git push -u origin main
 sleep 1
-echo ""
 echo "     _                  _ "
 echo "  __| | ___  _ __   ___| |"
 echo " / _' |/ _ \| '_ \ / _ \ | "
