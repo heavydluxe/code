@@ -70,13 +70,6 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# User configuration
-# Golang environment variables
-export GOROOT=$(brew --prefix go)/libexec
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
-
-
 # Preferred editor for local and remote sessions
 export EDITOR='emacs'
 
@@ -86,8 +79,9 @@ cd ~/sbemode
 # Aliases for Frequent Commands
 ## SBEMODE alias
 alias sb='cd ~/sbemode/ && emacs --eval "(progn (org-agenda nil \"a\") (org-agenda-day-view) (delete-other-windows))"'
-## ollama aliases
+## AI-related aliases for ollama and fabric
 alias olon='brew services start ollama && sleep 5 && ollama run llama3.2:latest'
 alias oll='ollama run llama3.2:latest'
 alias oloff='brew services stop ollama'
+alias fabric='~/./fabric'
 alias python='python3.12'
