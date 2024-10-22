@@ -70,6 +70,13 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# User configuration
+# Golang environment variables
+# export GOROOT=$(brew --prefix go)/libexec
+# export GOPATH=$HOME/go
+# export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
+
+
 # Preferred editor for local and remote sessions
 export EDITOR='emacs'
 
