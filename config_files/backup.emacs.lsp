@@ -58,3 +58,6 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 (package-initialize)
 (custom-set-faces)
+
+;; Custom Keybinding
+(global-set-key (kbd "C-c t") 'org-sparse-tree)
