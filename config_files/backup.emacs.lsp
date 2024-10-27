@@ -1,7 +1,10 @@
 ;; Set line numbers and text wrapping
 ;; (global-display-line-numbers-mode 1)
-(global-visual-line-mode 1)
 (require 'cl-lib)
+(global-visual-line-mode 1)
+(menu-bar-mode -1)
+(ido-mode 1)
+(ido-everywhere 1)
 
 ;; BIG SECTION OF ORGMODE STUFF
 ;; Org file path settings
