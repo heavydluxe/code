@@ -15,20 +15,20 @@
 ;; Org-mode keyword settings
 (setq org-todo-keywords
       '((sequence "TODO(t)"
-		  "INPROC(i)"
+		  "InProc(i)"
 		  "PROJECT(p)"
-		  "waiting(w)"
-		  "future(f)"
+		  "Future(f)"
+		  "Chat(c)"
 		  "|"
 		  "DONE(d)")))
 
 ;; Orgmode colorful bits and bobs
 (setq org-todo-keyword-faces
       '(("TODO" . (:foreground "brightwhite" :background "color-196"))
-	("INPROC" . (:foreground "black" :background "brightgreen"))
+	("InProc" . (:foreground "black" :background "brightgreen"))
 	("PROJECT" . (:foreground "brightwhite" :background "color-166"))
-	("waiting" . (:foreground "black" :background "brightyellow"))
-	("future" . (:foreground "while" :background "color-19"))
+	("Future" . (:foreground "while" :background "color-19"))
+	("Chat" . (:foreground "black" :background "brightyellow"))
        	("DONE" . (:foreground "brightblack" :background "black"))))
 
 ;; Org-mode tag settings
