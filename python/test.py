@@ -1,18 +1,10 @@
-import random, sys
+def spam(divideBy):
+    try:
+        return 42 / divideBy
+    except ZeroDivisionError:
+        print('Error: Invalid argument.')
 
-var = random.randint(1, 20)
-tries = 1
-print("Variable is", var)
-
-print("I'm thinking of a # between 1 and 20")
-guess = int(input("What's your guess? "))
-
-while guess != var:
-    if guess < var:
-        tries = tries + 1
-        guess = int(input("Your guess was too low. Try again! "))
-    elif guess > var:
-        tries = tries + 1
-        guess = int(input("Your guess was too high. Try again! "))
-
-print("Congrats. Took you", tries, "guess" )
+print(spam(2))
+print(spam(12))
+print(spam(0))
+print(spam(1))
