@@ -1,5 +1,4 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 plugins=(1password git docker brew sudo web-search copyfile zsh-autosuggestions zsh-syntax-highlighting)
 export ZSH="$HOME/.oh-my-zsh"
@@ -30,3 +29,5 @@ alias oll='ollama run llama3.2:latest'
 alias oloff='brew services stop ollama'
 alias fabric='~/./fabric'
 alias python='python3.13'
+
+export ANTHROPIC_API_KEY=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
