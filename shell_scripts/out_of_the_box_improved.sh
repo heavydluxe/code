@@ -9,6 +9,7 @@ while true; do sudo -n true; sleep 15; kill -0 "$$" || exit; done 2>/dev/null &
 echo "Configuring git..."
 git config --global user.name "Brian Dellinger"
 git config --global user.email "bdellinger@gmail.com"
+git config --global init.defaultBranch main
 
 ## Setup Personal Command Line Environment
 # emacs first, always
