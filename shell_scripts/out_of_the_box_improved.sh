@@ -142,7 +142,6 @@ ollama pull llama3.1:latest
 echo "Installing AI Tool - Fabric"
 curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version
 sleep 1
-fabric --setup
 
 # Outputs and Cleanup
 echo "This is the setup file for '$NEW_HOSTNAME'" > ~/Desktop/InstallOutput.txt
