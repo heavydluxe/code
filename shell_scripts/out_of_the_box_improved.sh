@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# Set hostname and ComputerName
+## Prompt the user for the new hostname
+read -p "Enter NEW Hostname for this device: " NEW_HOSTNAME
+sudo scutil --set HostName "$NEW_HOSTNAME"
+sudo scutil --set ComputerName "$NEW_HOSTNAME"
+sudo scutil --set LocalHostName "$NEW_HOSTNAME"
+echo "Hostname has been changed to '$NEW_HOSTNAME'"
+
 ## Input sudo password up front and keep it alive until script ends
 echo "Input sudo password for this script to do root things."
 sudo -v
@@ -59,14 +67,10 @@ echo "Installing VSCode"
 brew install --cask visual-studio-code
 echo "Installing M$ Windows App (aka RDS)"
 brew install --cask windows-app
+echo "Installing Spotify"
+brew install --cask spotify
 echo "Installing Splashtop Business"
 brew install --cask splashtop-business
-echo "Installing VirtualBox"
-brew install --cask virtualbox@beta
-#echo "Installing Skype"
-#brew install --cask skype
-#echo "Installing Rectangle Windows Manager"
-#brew install --cask rectangle
 sleep 3
 
 ## Setup dock and open GUI apps for configuration
@@ -77,12 +81,13 @@ dockutil --add /Applications/Firefox.app
 dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /System/Applications/System\ Settings.app
 dockutil --add /Applications/1Password.app
-dockutil --add /Applications/VirtualBox.app
 dockutil --add /Applications/Windows\ App.app
-dockutil --add /Applications/Splashtop\ Business.app
 dockutil --add /Applications/zoom.us.app
 dockutil --add /System/Applications/TextEdit.app
-dockutil --add '~/Downloads' --view fan --display folder
+dockutil --add /Applications/Spotify.app
+dockutil --add /Applications/Splashtop\ Business.app
+dockutil --add /Applications/GlobalProtect.app
+dockutil --add /dockutil --add '~/Downloads' --view fan --display folder
 
 ## Start graphical apps and allow configuration
 echo "Opening key apps for configuration."
@@ -100,8 +105,8 @@ brew install htop
 brew install btop
 
 ## Install python
-echo "Brewing latest python release"
-brew install python
+# echo "Brewing latest python release"
+# brew install python
 
 # Homebrew network tools
 echo "Brewing network tools (wget, curl, speedtest, nmap, tcpdump, termshark)"
@@ -138,14 +143,6 @@ echo "Installing AI Tool - Fabric"
 curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version
 sleep 1
 fabric --setup
-
-# Set hostname and ComputerName
-## Prompt the user for the new hostname
-read -p "Enter NEW Hostname for this device: " NEW_HOSTNAME
-sudo scutil --set HostName "$NEW_HOSTNAME"
-sudo scutil --set ComputerName "$NEW_HOSTNAME"
-sudo scutil --set LocalHostName "$NEW_HOSTNAME"
-echo "Hostname has been changed to '$NEW_HOSTNAME'"
 
 # Outputs and Cleanup
 echo "This is the setup file for '$NEW_HOSTNAME'" > ~/Desktop/InstallOutput.txt
