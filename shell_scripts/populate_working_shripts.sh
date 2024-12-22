@@ -13,10 +13,6 @@ sleep 1
 ## Populate gitignore
 echo ">>> Pushing gitignore to each repository (from src.gitignore)"
 sleep 1
-echo "... to ~/sbemode/ai_materials ..."
-cp src.gitignore ~/sbemode/ai_materials/.gitignore
-
-sleep 1
 echo "... to ~/sbemode/code ..."
 cp src.gitignore ~/sbemode/code/.gitignore
 
@@ -32,10 +28,6 @@ echo ""
 
 ## Populate git_me_one_time.sh
 echo ">>> Pushing git_me_one_time.sh to each repository (from src.git_me_one_time.sh)"
-sleep 1
-echo "... to ~/sbemode/ai_materials ..."
-cp src.git_me_one_time.sh ~/sbemode/ai_materials/git_me_one_time.sh
-
 sleep 1
 echo "... to ~/sbemode/code ..."
 cp src.git_me_one_time.sh ~/sbemode/code/git_me_one_time.sh
