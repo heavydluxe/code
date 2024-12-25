@@ -24,10 +24,8 @@ cd ~/sbemode
 alias sb='cd ~/sbemode/orgmode && emacs --eval "(progn (org-agenda nil \"a\") (org-agenda-day-view) (delete-other-windows))"'
 
 ## AI-related aliases for ollama and fabric
-alias olon='brew services start ollama && sleep 2 && ollama run llama3.2:latest'
-alias oll='ollama run llama3.2:latest'
+alias olon='brew services start ollama && sleep 2 && ollama run llama3.1:latest'
+alias oll='ollama run llama3.1:latest'
 alias oloff='brew services stop ollama'
 alias fabric='~/./fabric'
 alias python='python3.13'
-
-export ANTHROPIC_API_KEY=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

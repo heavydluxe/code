@@ -49,12 +49,6 @@
 
 ;; deft notes information
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-agenda-files
-   '("/Users/d1084s2/sbemode/orgmode/defts/2024Nov01.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Nov15.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct03.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct06.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct07.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct10.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct11.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct15.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct18.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct18_2.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct23.org" "/Users/d1084s2/sbemode/orgmode/defts/2024Oct24.org" "/Users/d1084s2/sbemode/orgmode/home-do.org" "/Users/d1084s2/sbemode/orgmode/portlandtoday.org" "/Users/d1084s2/sbemode/orgmode/work-do.org"))
  '(package-selected-packages '(deft)))
 (setq deft-extensions '("txt" "org" "md"))
 (setq deft-directory "~/sbemode/orgmode/defts")
